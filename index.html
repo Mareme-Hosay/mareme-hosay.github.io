@@ -1,7 +1,90 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>My First Parcel App</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<div id="welcome" class="container">
+			<header>
+				<h2>
+					<img
+						class="headers_background"
+						src="./images/h2_underline.png"
+						alt="background"
+					/>3D Modeler / Animator
+				</h2>
+				<h1>
+					<img
+						class="headers_background"
+						src="./images/h1_underline.png"
+						alt="background"
+					/>Marème Hosay
+				</h1>
+			</header>
+			<div id="main">
+				<div id="video_container">
+					<img
+						id="video_container_background"
+						src="./images/video_container.png"
+						alt="video_background"
+					/>
+					<video id="video" src="/videos/Demoreel.webm" controls>
+						Your browser does not support the video tag.
+					</video>
+					<button id="play_button">Play</button>
+				</div>
+				<div id="video_buttons"></div>
+			</div>
+		</div>
+		<div id="contact" class="container">
+			<h2>
+				<img
+					class="headers_background"
+					src="./images/h2_underline.png"
+					alt="background"
+				/>Contact
+			</h2>
+			<div id="contact_info">
+				<a href="mailto:mareme.hosay@gmail.com" class="box">
+					<p>
+						<img
+							src="./logo/gmail.svg"
+							alt="mail_icon"
+						/>Email:&nbsp;
+					</p>
+					mareme.hosay@gmail.com
+				</a>
+				<a href="tel:0032471590692" class="box">
+					<p>
+						<img
+							src="./logo/phone.svg"
+							alt="phone_icon"
+						/>Phone:&nbsp;
+					</p>
+					+32 471.59.06.92</a
+				>
+				<a
+					href="https://www.instagram.com/blue_death_unicorn/"
+					class="box"
+				>
+					<p>
+						<img
+							src="./logo/instagram.svg"
+							alt="phone_icon"
+						/>Instagram:
+					</p>
+					@blue_death_unicorn
+				</a>
+			</div>
+		</div>
+		<span id="band_top" class="band_horizontal"></span>
+		<span id="band_bottom" class="band_horizontal"></span>
+		<span id="corner_top_left" class="corner"></span>
+		<span id="corner_top_right" class="corner"></span>
+		<span id="corner_bottom_left" class="corner"></span>
+		<span id="corner_bottom_right" class="corner"></span>
+		<script src="./js/script.js"></script>
+	</body>
 </html>

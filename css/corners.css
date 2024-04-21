@@ -1,0 +1,30 @@
+/* Corners */
+.corner {
+	position: absolute;
+	width: 112px;
+	height: 109px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#corner_top_left {
+	background-image: url("..//images/corner_left.png");
+	top: 0;
+	left: 0;
+}
+#corner_top_right {
+	background-image: url("..//images/corner_right.png");
+	top: 0;
+	right: 0;
+}
+#corner_bottom_left {
+	background-image: url("..//images/corner_right.png");
+	bottom: 0;
+	left: 0;
+	transform: rotate(180deg);
+}
+#corner_bottom_right {
+	background-image: url("..//images/corner_left.png");
+	bottom: 0;
+	right: 0;
+	transform: rotate(180deg);
+}

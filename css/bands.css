@@ -1,0 +1,46 @@
+/* Bands */
+.container:before {
+	background-image: url("../images/band_vertical.png");
+	background-size: contain;
+	background-repeat: repeat-y;
+
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.container:after {
+	background-image: url("../images/band_vertical.png");
+	background-size: contain;
+	background-repeat: repeat-y;
+
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+
+.band_horizontal {
+	background-image: url("../images/band_horizontal.png");
+	background-size: contain;
+	background-repeat: repeat-x;
+	position: absolute;
+	width: 100%;
+	height: 20px;
+}
+
+#band_top {
+	position: absolute;
+	top: 0;
+}
+
+#band_bottom {
+	position: absolute;
+	bottom: 0;
+	transform: rotate(180deg);
+}

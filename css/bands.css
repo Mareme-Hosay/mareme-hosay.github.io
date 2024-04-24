@@ -1,5 +1,5 @@
 /* Bands */
-.container:before {
+body:before {
 	background-image: url("../images/band_vertical.png");
 	background-size: contain;
 	background-repeat: repeat-y;
@@ -12,7 +12,7 @@
 	left: 0;
 }
 
-.container:after {
+body:after {
 	background-image: url("../images/band_vertical.png");
 	background-size: contain;
 	background-repeat: repeat-y;
@@ -23,6 +23,7 @@
 	height: 100%;
 	top: 0;
 	right: 0;
+	z-index: -1;
 }
 
 .band_horizontal {
